@@ -1,5 +1,5 @@
-import { withPrefix } from "gatsby";
 import scrollToElement from "scroll-to-element";
+import { withPrefix } from "gatsby";
 import * as errorTypes from "./errors";
 
 export const isBrowser = typeof window !== "undefined";
